@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+*
+.header{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 2vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar{
+    padding: 25px;
+    background-color:rgb(1, 12, 1);
+    box-shadow: 5px 5px 5px rgba(24, 209, 24, 0.5), 
+    inset 0px 0px 0px rgba(17, 201, 33, 0.5); 
+}
+
+:root {
+    --main-color: rgb(24, 209, 24);
+}
+.color-text
+{
+    color: var(--main-color)
+}
+
+.navbar-color
+{
+    color: var(--main-color) !important;
+}
+
+.act {
+    color: var(--main-color) !important;
+    border-bottom: 2px solid var (--main-color);
+}
+
+.navbar ul li a:hover {
+    color: var(--main-color) !important;
+    border-bottom: 2px solid var (--main-color);
+}
+
+.bg_rangkaian{
+    margin: 0;
+    padding: 0;
+    background-image: url(techevent.jpg);
+    height: 100vh;
+    width: 100%;
+}
+
+.bg_rangkaian .background{
+    position: relative;
+}
+
+.bg_rangkaian .effect{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(48, 37, 37);
+    z-index: 1;
+    opacity: 0.2;
+}
+
+.bg_rangkaian .content {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    z-index: 2;
+    text-align: left !important;
+    justify-content: center !important;
+}
+.isi_acara{
+    background-image: url(backgroundevent.jpg);
+}
+.bg_rangkaian h3{
+    font-weight: bold;
+    font-size: 4.5vh;
+    margin-bottom: 10px;
+    color: var(--main-color) !important;
+
+}
+
+.bg_rangkaian span{
+    font-size: 2.5vh;
+    color: white;
+}
+
+.judulacara{
+background-color: black;
+}
+
+.judulacara h1{
+    color: var(--main-color) !important;
+    text-align: center;
+}
+
+.deskripsievent1{
+    box-shadow: 5px 5px 5px rgba(17, 201, 33, 0.5), 
+    inset 5px 5px 5px rgba(17, 201, 33, 0.5); 
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-bottom: 150px;
+}
+
+.deskripsievent2{
+    box-shadow: 5px 5px 5px rgba(17, 201, 33, 0.5), 
+    inset 5px 5px 5px rgba(17, 201, 33, 0.5); 
+    padding: 7px;
+    background-color: black;
+    color: white;
+}
+
+.deskripsievent3{
+    box-shadow: 5px 5px 5px rgba(17, 201, 33, 0.5), 
+    inset 5px 5px 5px rgba(17, 201, 33, 0.5); 
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.deskripsievent1 h4{
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+.deskripsievent2 h4{
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+.deskripsievent3 h4{
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+.judulcarousel {
+    background-color: black;
+}
+.judulcarousel h1{
+    color: var(--main-color) !important;
+    margin-left: 100px;
+}
+
+.carousel 
+{
+  width:640px; // Set width
+  height:400px; 
+  margin-left: 600px;
+  box-shadow: 5px 5px 5px rgba(17, 201, 33, 0.5), 
+    inset 5px 5px 5px rgba(17, 201, 33, 0.5);
+}
+
+.carousel-caption{
+    color: black;
+    font-weight: bold;
+}
+
+.timeline {
+    background: url(timeline.webp) no-repeat center fixed;
+    background-size: cover;
+    color: var(--main-color) !important;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-left: 650px;
+}
+
+.judultimeline h1{
+    margin-top: 50px;
+    text-align: center;
+    background-color: black;
+    color: var(--main-color) !important;
+}
+
+.judultimeline p{
+    text-align: center;
+    color: var(--main-color) !important;
+}
+
+.timelines {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    position: relative;
+}
+
+.timelines {
+    max-width: 35vw;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.timelines div {
+    border: 2px solid #2fd106d2;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.timelines:nth-child(odd) {
+    border-left: 3px solid #2fd106d2;
+    padding-left: 35px;
+    transform: translateX(202px);
+}
+
+.timelines:nth-child(even) {
+    border-right: 3px solid #2fd106d2;
+    padding-right: 35px;
+    transform: translateX(-453px);
+}
+
+.timelines:nth-child(odd)::before,
+.timelines:nth-child(even)::before {
+    content: '';
+    background: #2fd106d2;
+    width: 35px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.timelines:nth-child(odd)::before{
+    left: 0;
+}
+
+.timelines:nth-child(even)::before{
+    right: 0;
+}
+
+.judul_form{
+    text-align: center;
+    color: var(--main-color) !important;
+}
+
+.form_container {
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 50px 100px;
+    background-image: url("formregis.webp");
+    color: var(--main-color) !important;
+}
+
+.form_container form .details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .details .input{
+    width: calc(50% - 20px);
+    padding-right: 400px;
+}
+
+.details .input input {
+    width: 100%;
+}
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #00b545;
+    color: #0bbb22;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #005f8b;
+  }
+
+ @media(max-width: 584px) {
+    .form_container{
+        max-width: 100%
+    }
+ }
